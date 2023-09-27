@@ -1,0 +1,46 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    opacity: 0.2;
+ 
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    opacity: 1;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #161616;
+    top: 0;
+    width: 5%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    overflow: hidden;
+}  
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rebeccapurple;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+li a:hover:not(.ac){
+    background-color: lightgrey;
+}
+.ac{
+    background: aquamarine;
+}
+.main{
+    margin-left: 17%;
+}
